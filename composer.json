@@ -1,0 +1,20 @@
+ {
+	"name":"asutoshpalai/mvc",
+	"description": "Sample app from nvc lecture",
+	"require":{
+		"torophp/torophp": "dev-master",
+		"twig/twig": "2.0"
+	},
+	"authors":[
+		{
+		 	"name":"Asutosh Palai",
+		 	"email": "asupalai@gmail.com"
+		}
+	],
+	"autoload":{
+		"psr-4":{
+			"Linkit\\Controllers\\":"app/controllers",
+			"Linkit\\Models\\":"app/models"
+		}
+	}
+}
